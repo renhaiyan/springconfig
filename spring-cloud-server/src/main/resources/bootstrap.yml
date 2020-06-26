@@ -1,0 +1,24 @@
+server:
+  port: 8888
+spring:
+  application:
+    name:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/renhaiyan/config-repo
+          username: 454112944@qq.com
+          password: rhy50035
+          default-label: master #配置文件分支
+#          search-paths: config  #配置文件所在根目录
+#      discovery:
+#        enabled: true
+#        service-id: config-center
+      profile: dev
+      label: master
+# 指定注册中心地址
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
