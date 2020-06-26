@@ -8,8 +8,8 @@ spring:
       server:
         git:
           uri: https://github.com/renhaiyan/config-repo
-          username: 454112944@qq.com
-          password: rhy50035
+          username:
+          password:
           default-label: master #配置文件分支
 #          search-paths: config  #配置文件所在根目录
 #      discovery:
